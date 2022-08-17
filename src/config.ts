@@ -7,7 +7,7 @@ dotenv.config();
 const param = {
   package: {
     root: process.env.PACKAGE_ROOT,
-    entryFile: process.env.PACKAGE_ROOT,
+    entryFile: process.env.PACKAGE_ENTRY_FILE,
     postfix: ['/index.ts', '.ts', '', '/_variables.scss'],
   },
   generate: {
